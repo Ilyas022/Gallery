@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+body {
+	@apply text-white bg-authBg bg-no-repeat bg-cover bg-fixed;
+}
+
+#root {
+	@apply min-h-screen bg-gray-800/60;
+}
